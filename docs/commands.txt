@@ -23,3 +23,5 @@ sudo service codedeploy-agent status
 # Deploy the files on S3
 ```
 aws deploy push --application-name codeDeployDemoSandip --s3-location s3://devops-with-aws-sandip-youtube/codedeploydemo/app.zip --ignore-hidden-files --region us-west-2
+node installation steps below
+n=$(which node);n=${n%/bin/node}; chmod -R 755 $n/bin/*; sudo cp -r $n/{bin,lib,share} /usr/local
